@@ -1,3 +1,4 @@
+@raininmoonlight
 # Simple & Complex Calculator  🧮
 
 A simple C++ calculator for basic arithmetic and solving quadratic equations.
@@ -14,7 +15,9 @@ A simple C++ calculator for basic arithmetic and solving quadratic equations.
   Solves equations of the form `(-B ± √(B² - 4AC)) / 2A`.
 
 ## How to Compile ⚙️
-
+ 
 ```bash
 g++ main.cpp -o calculator
-./calculator```
+./calculator
+
+
