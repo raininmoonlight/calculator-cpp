@@ -109,6 +109,7 @@ int main() {
 
         } else {
             cout << "Invalid operation" << endl;
+            break;
         }
 
     } while (true); // Laço continua até o usuário escolher sair
