@@ -66,7 +66,7 @@ int main() {
             int typeComCalc;
             cin >> typeComCalc;
 
-            double delta; // Declare 'delta' aqui fora do switch, para que ela seja acessível a todo o código da operação
+            double delta; // Delta fora do switch para ascessar durante o codigo
 
             switch (typeComCalc) {
                 case 1:
@@ -82,7 +82,7 @@ int main() {
                     double coefficientC;
                     cin >> coefficientC;
 
-                    delta = (coefficientB * coefficientB) - (4 * coefficientA * coefficientC);  // Agora 'delta' pode ser usada no switch
+                    delta = (coefficientB * coefficientB) - (4 * coefficientA * coefficientC);  
                     if (delta < 0) {
                         cout << "Complex! Delta is < 0" << endl;
                     } else {
