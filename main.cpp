@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 
-// Make by raininmoonlight
+// Made by raininmoonlight
 
 int main() {
     using namespace std;
