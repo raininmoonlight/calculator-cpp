@@ -24,14 +24,14 @@ int main() {
             cin >> typeSimpOperation;
 
             cout << "** Number 1 **: ";
-            int num1;
+            double num1;
             cin >> num1;
 
             cout << "** Number 2 **: ";
-            int num2;
+            double num2;
             cin >> num2;
 
-            int resultado;
+            double resultado;
 
             switch (typeSimpOperation) {
                 case 1:
